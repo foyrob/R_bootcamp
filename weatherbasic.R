@@ -14,4 +14,6 @@ hd <- sub(" \\[\\]", "", hd)
 names(w) <- hd
 
 par(mfrow = c(2, 2))
+
 plot(w$Time, w[, "WindSp [knots]"], type = "b", xlab =  "Time", ylab = "Wind speed\")
+plot(w$Time, w[, "Temp [degC]"], type = "b", xlab = "Time", ylab = "Temp")
