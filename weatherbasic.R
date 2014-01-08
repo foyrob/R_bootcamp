@@ -1,4 +1,4 @@
-# Basic analysis of the weather data
+# Basic analysis of the weather data, DIE FUCKER DIE
 
 w = read.table('~/Dropbox/PhD/weather/daily-text/1999_01_19', header = FALSE, sep = "\t")w
 summary(w)
