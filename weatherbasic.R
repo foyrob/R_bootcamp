@@ -1,3 +1,5 @@
+# Basic analysis of the weather data
+
 w = read.table('~/Dropbox/PhD/weather/daily-text/1999_01_19', header = FALSE, sep = "\t")w
 summary(w)
 
