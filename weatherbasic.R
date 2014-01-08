@@ -1,5 +1,7 @@
 # Basic analysis of the weather data
 
+# Now I will commit from the blah 
+
 w = read.table('~/Dropbox/PhD/weather/daily-text/1999_01_19', header = FALSE, sep = "\t")w
 summary(w)
 
